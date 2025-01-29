@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+    height: 1500px;
+}
+    .green-bg{
+        background-color: #74c69d;
+        padding: 20px 0;
+        
+       
+    }
+    header{
+        flex-direction: row;
+        position: sticky;
+        top: 0;
+        color: #ffffff; 
+        background-color: #74c69d;
+    }
+    
+    .row{
+        display: flex;
+        gap: 20px; 
+        align-items: center;
+        justify-content: space-between;
+        padding: 20 40;
+       flex-direction: row;
+       
+    }
+    jc-sb{
+        justify-content: space-between;
+    
+    }
+    .container2{
+        flex-direction: row;
+    }
+    .container{
+        flex-direction: row;
+        max-width: 1440px;
+        margin:0 auto;
+      
+    }
+     nav ul li a{
+        color: #ffffff;
+        text-decoration: none; 
+        
+     }
+     nav ul li a:hover {
+        color: orangered;
+     }
+    
+    
+     
+     ul li{
+        list-style: none;
+       
+     }
+     .main-content img{
+        width: 644px;
+        height: 378px;
+        flex-direction: row;
+    
+     }
+     .main-content{
+        flex-direction: row;
+        color: #ffffff;
+        display: inline-block;
+     }
+     .bottom{
+        margin-bottom: 25px;
+     }
+    .main-content button{
+      padding: 12px 25px;
+      border-color: #ffffff;
+    
+    
+    }
+    
+    .plus{
+        max-width: 1440;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;   
+    
+    }
+    .plus h2{
+        color: #74c69d;
+        padding: 20px;
+    
+    }
+    .plus h2 {
+        padding: 20px;
+    }
+    .plus h1{
+        padding: 20px;
+    }
+    .dolor{ 
+       display: flex;
+        max-width: 1200px;
+        display: flex;
+        gap: 20px; 
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .learn{
+        margin-bottom: 20px;
+        background-color: black;
+        color: #ffffff;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .botom{
+        margin-bottom: 20px;
+        background-color:#ffffff;
+        color:black;  
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+.botom  a button:hover{
+color: brown;
+}
+.more button:hover{
+    color: brown;
+}
+a:hover{
+    color: brown;
+}
+    .more button{
+    
+        margin-bottom: 20px;
+        background-color:black;
+        color:#ffffff;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .potoebistvis{  
+         margin-bottom: 20px;
+        background-color: black;
+        color: #ffffff;  
+        border-radius: 5px;
+        padding: 12px 25px;
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    .batum{
+        margin-bottom: 20px;
+        background-color: black;
+        color: #ffffff;  
+        border-radius: 5px;
+        padding: 12px 25px;
+    
+    }
+    .more{
+        text-align: center;
+    }
+    .dis-play{
+        display: inline-block;
+    }
+    .werili{
+    flex-direction: row;
+        display: flex;
+        gap: 20px; 
+        align-items: center;
+        justify-content: space-between;
+        padding: 20 40;
+    }
+    .werili img{
+        width: 644;
+        height: 378;
+    }
+    .shavi{
+        padding: 12px 25px;
+        margin-bottom: 20px;
+        background-color: black;
+        color: #ffffff;  
+        border-radius: 5px
+    }
+    .klaviatura{display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100px;
+        padding: 150px;
+    }
+    .satauri h3{
+       color: #74c69d;
+       padding: 20px;
+       
+    }
+    .satauri{
+        flex-direction: row;
+        text-align: center;
+        padding: 100px;
+    }
+    .satauri h1{
+        padding: 20px;
+        flex-direction: row;
+    }
+    .satauri i{
+        color: #74c69d;
+     
+    }
+    .dayofa{
+    flex-direction: row;
+    background-color: #ffffff;
+    margin: 20px;
+    line-height: 30px; 
+    font-size: 20spx;
+    box-shadow: 10px 5px 10px 1px;
+    }
+    .dayofa p{
+      
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .adamianebi img{
+        flex-direction: row;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .viwe{
+        padding: 12px 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: black;
+        color: #ffffff;  
+        border-radius: 5px
+    
+    }
+    footer{
+        flex-direction: row;
+         background-color: #74c69d;
+        width: 1440px;
+        margin: 0 auto;
+       align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+        color: #ffffff;
+       
+    }
+    footer div i{
+         color: #ffffff;
+         padding: 10px;
+        display: flax;
+        display: flexbox;
+        justify-content: space-between;      
+    }
+    footer i:hover{
+        color: brown;
+
+    }
+    footer p{
+        margin-left: 1200px;
+
+    }
+
+    .file h2{
+        color: #74c69d;
+        padding: 20px;
+    
+    }
+    .file{
+        text-align: center;
+    }
+    .file h1{
+        padding: 20px;
+    }
+    .file p{
+        padding: 30px;
+    }
+    
+    .disaini{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 30px 50px;
+     gap: 30px;
+     flex-direction: row;
+
+    }
+    .disaini img{
+        gap: 30px;
+
+    }
+    .us{
+        text-align: center;
+        padding: 20px 
+    
+    }
+    input{
+    width: 300px;
+    }
+    label{
+    display: block;
+    margin-bottom: 20px;   
+    }
+    .submit{
+        background-color: black;
+        width: 300px;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    .ruka{
+        display: flex;
+        justify-content: space-between;
+        gap: 20;
+        padding: 20px 40px;
+        flex-direction: row;
+       
+        
+    }
+
+
+    
+ 
+
+ @media only screen  and (max-width: 768px){
+    header{
+        flex-direction: column;
+    }
+    .container2{
+        flex-direction: column;
+
+    }
+    .green-bg{
+        flex-direction: column;
+    }
+    .row jc-sb{
+        flex-direction: column;
+    }
+    .dolor{
+        flex-direction: column;
+    }
+  .adamianebi{
+    flex-direction: column;
+  }
+.werili{
+    flex-direction: column;
+}
+.main-content{
+    flex-direction: column;
+}
+.main-content img{
+    flex-direction: column;
+}
+.container{
+    flex-direction: column;
+}
+footer{
+    flex-direction: column;
+}
+.disaini{
+    flex-direction: column;
+}
+.dayofa{
+    flex-direction: column;
+}
+.satauri{
+    flex-direction: column;
+}
+.ruka{
+    flex-direction: column;
+}
+
+ }
